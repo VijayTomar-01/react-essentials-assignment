@@ -3,6 +3,7 @@
 # Netlify Deploy Link
    https://portfoliocardui.netlify.app/
 
+```
  portfolio-card/
    ├─ public/
    └─ src/
@@ -10,5 +11,5 @@
       └─ components/
          ├─ CardActions/
          └─ Portfolio/
-
+```
 

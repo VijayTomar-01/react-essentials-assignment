@@ -4,7 +4,7 @@
 # Movies Database Interface Deployment Link
   (https://portfoliocardui.netlify.app/)
 
-
+```
 assignment-1/
 ├─ movies-database-functionality/
 │  ├─ public/
@@ -21,3 +21,4 @@ assignment-1/
       └─ components/
          ├─ CardActions/
          └─ Portfolio/
+```

@@ -3,6 +3,7 @@
 # Netlify Deploy Link
 https://moviedatabaseinterface.netlify.app/
 
+```
 movies-database-functionality/
 ├─ public/
 │  └─ vite.svg
@@ -23,3 +24,4 @@ movies-database-functionality/
 │  ├─ App.jsx
 │  ├─ index.css
 │  └─ main.jsx
+```
