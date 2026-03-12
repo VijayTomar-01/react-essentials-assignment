@@ -2,7 +2,7 @@
   (https://portfoliocardui.netlify.app/)
 
 # Movies Database Interface Deployment Link
-  (https://portfoliocardui.netlify.app/)
+  (https://moviedatabaseinterface.netlify.app/)
 
 ```
 assignment-1/
