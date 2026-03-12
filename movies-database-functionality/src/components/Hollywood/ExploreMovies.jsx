@@ -49,10 +49,13 @@ const ExploreMovies = () => {
     })
   }, [movies, searchTerm, selectedGenre, sortBy])
 
+  // contains favorite movies and renders with locally stored memory
   const addedToFavorite = useMemo(() => {
     return movies.filter(movie => favorites.includes(movie.id));
   }, [movies, favorites])
 
+  // toggles with only id rather than the whole movie object causes fast rendering
+  // eg., stores id 1,2,3 in [0,1,2] as index 
   const toggleFavorite = (id) => {
     setFavorites(prev => {
       if(prev.includes(id)){
@@ -106,10 +109,10 @@ const ExploreMovies = () => {
         )}
       </div>
         </div>
-      <div>
+      <div className='p-4'>
         <h3 className='font-semibold text-md py-1.5 px-3.5 w-fit mx-auto text-gray-100 rounded-xl mb-3 shadow-md shadow-gray-600 bg-[#667eea] '>Your Favorites</h3>
         {favorites.length > 0 ? (
-          <div className="flex flex-wrap items-center justify-evenly ">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-3 items-center justify-evenly ">
             {addedToFavorite.map(movie => (
               <FavoritesCard key={movie.id} {...movie}/>
             ))}

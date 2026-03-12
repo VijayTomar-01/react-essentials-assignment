@@ -2,6 +2,7 @@ import React from 'react'
 
 const Search = ({searchTerm, setSearchTerm, handleRefresh, filteredMovies, setSelectedGenre, sortBy, setSortBy, }) => {
 
+
   const genres = ['All', "Sci-Fi", "Action", "Thriller", "Crime", "Drama", "Adventure", "Fantasy", "Biography"]
 
   return (

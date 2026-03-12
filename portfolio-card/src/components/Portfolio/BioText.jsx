@@ -8,7 +8,7 @@ const BioText = () => {
     <div className='p-4 text-center '>
         <h3 className='font-semibold mt-4 text-lg text-[#667eea] border-b pb-1 mb-2.5'>About Me</h3>
         <p className='text-md font-medium text-gray-800'>{bioText}</p>
-        <p className='text-lg font-semibold mt-3'>Thanks For Stopping by. "Auf Weidersehen!"</p>
+        <p className='text-lg font-semibold mt-3 text-gray-800'>Thanks For Stopping by. "Auf Weidersehen!"</p>
       </div>
   )
 }

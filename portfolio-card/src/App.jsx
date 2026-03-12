@@ -44,7 +44,7 @@ function App() {
   return (
     <>
       <div className={`min-h-screen p-4 ${darkTheme ? 'bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-100' : 'bg-gradient-to-br from-sky-50 via-white to-indigo-100 text-gray-800'}`}>
-        <div className='flex justify-end items-center mr-6 mt-6 gap-12 font-semibold text-md'>
+        <div className='flex justify-end items-center mr-6 mt-6 gap-12 font-semibold text-md mb-8'>
           <button
           className={`px-3.5 py-1.5 shadow-md shadow-gray-500 rounded-xl transition-all duration-300 hover:scale-105 ${darkTheme ? 'bg-gray-100 text-gray-800' : 'bg-gray-800 text-gray-100'}`}
           onClick={handleTheme}>Toggle Theme</button>
