@@ -13,6 +13,9 @@
   (https://moviedatabaseinterface.netlify.app/)
 
   Updated Theme of Portfolio card and the ui of the Movies card for the second part of the assignment
+  
+  - For the portfolio card made the card change theme
+  - For the movie card made it horizontal and a little bit of responsive behavior for the card layout and also adjusted the theme for the whole app
 
 ```
 assignment-1/
