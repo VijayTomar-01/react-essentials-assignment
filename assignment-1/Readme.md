@@ -1,7 +1,7 @@
 # ASSIGNMENT - 1
 
 ## Portfolio Card
-[Open Portfolio](./portfolio-card)
+[Open Portfolio Card](./portfolio-card)
 
 ### Portfolio Card Netlify Deployment Link
   (https://portfoliocardui.netlify.app/)
