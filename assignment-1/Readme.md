@@ -9,7 +9,7 @@
 ## Movie Database
 [Open Movie Database](./movies-database-functionality)
 
-# Movies Database Interface Deployment Link
+### Movies Database Interface Deployment Link
   (https://moviedatabaseinterface.netlify.app/)
 
   Updated Theme of Portfolio card and the ui of the Movies card for the second part of the assignment
