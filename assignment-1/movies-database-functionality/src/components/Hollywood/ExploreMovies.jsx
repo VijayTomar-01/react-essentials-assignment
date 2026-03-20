@@ -73,7 +73,7 @@ const ExploreMovies = ({darkTheme}) => {
 
   const favBtnClr = (isFavorite) => {
     return isFavorite 
-    ? ` ${darkTheme ? 'bg-red-700/30 text-gray-100 hover:bg-red-700/80' : 'bg-red-700/60 text-gray-100 hover:bg-red-700/80'}`
+    ? ` ${darkTheme ? 'bg-red-700/80 text-gray-100 hover:bg-red-700/50' : 'bg-red-700/80 text-gray-100 hover:bg-red-700/60'}`
     : `${darkTheme ? 'bg-gray-600/90 ' : 'bg-gray-400 text-gray-100'} hover:shadow-md shadow-gray-500 transition-all duration-300`
   }
 
