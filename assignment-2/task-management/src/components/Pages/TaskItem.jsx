@@ -93,7 +93,7 @@ const TaskItem = ({task}) => {
         className={`cursor-pointer transition-all duration-300 hover:scale-105 px-3 py-1 text-xs font-semibold shadow-sm shadow-gray-500 rounded-lg ${task.completed ? 'bg-green-600/90 text-gray-100' : 'bg-yellow-300 text-gray-700'}`}>{task.completed ? '✅ Completed' : '⏳ Pending'}</button>
         <button
         onClick={() => setIsEditing(true)}
-        className={`px-3 py-1 text-xs transition-all duration-300 hover:scale-105 cursor-pointer  font-semibold shadow-sm shadow-gray-500 rounded-lg bg-gray-200 hover:bg-indigo-300`}>🖊️ Edit</button>
+        className={`px-3 py-1 text-xs transition-all duration-300 hover:scale-105 cursor-pointer  font-semibold shadow-sm shadow-gray-500 rounded-lg bg-gray-200 text-gray-700 hover:bg-indigo-300`}>🖊️ Edit</button>
         <button
         className='px-3 py-1 text-xs transition-all duration-300 hover:scale-105 cursor-pointer  font-medium shadow-sm shadow-gray-500 rounded-lg bg-red-700/40 hover:bg-red-700/80 hover:text-gray-100'
         onClick={() => deleteTask(task.id)}>🗑️ Delete</button>
