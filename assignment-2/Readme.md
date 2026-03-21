@@ -6,17 +6,8 @@
 ### Netlify Deployment Link
    https://task-management-assignmnt.netlify.app/
 
-### Images of the App in both light and dark mode
-
-NOTE:- whole app image screenshot is taken with 50% pc screen width may not be clear and the responsive in 30%
-
-![App heading](./task-management/src/assets/heading.png)
-![App main](./task-management/src/assets/main.png)
-![App task](./task-management/src/assets/task.png)
-![Whole App Light](./task-management/src/assets/wholeAppLight.png)
-![responsive Light](./task-management/src/assets/responsiveLight.png)
-![Whole app Dark](./task-management/src/assets/wholeAppDark.png)
-![responsive Dark](./task-management/src/assets/responsiveDark.png)
+### Images of app 
+[Go to images](#images)
 
 A responsive task management app built with React, Context API, useReducer and have the basic CRUD Functionality.
 
@@ -73,3 +64,16 @@ Logic happens based on the type of actions in the reducer,
 Basic design with form and the task overview in a grid (for smaller device will grid-cols-1) and the task in the bottom displayed in grid of 2 and for smaller device grid of 1
 Theme with linear background gradinents for both light and dark theme
 Framer motion for basic animation like on start of the application the form appears to be coming up from the slightly lower position
+
+### Images 
+
+NOTE:- whole app image screenshot is taken with 50% pc screen width may not be clear and the responsive in 30%
+
+![App heading](./task-management/src/assets/heading.png)
+![App main](./task-management/src/assets/main.png)
+![App task](./task-management/src/assets/task.png)
+![Whole App Light](./task-management/src/assets/wholeAppLight.png)
+![responsive Light](./task-management/src/assets/responsiveLight.png)
+![Whole app Dark](./task-management/src/assets/wholeAppDark.png)
+![responsive Dark](./task-management/src/assets/responsiveDark.png)
+
