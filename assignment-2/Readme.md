@@ -4,7 +4,7 @@
 [Open Task Management App](./task-management)
 
 ### Netlify Deployment Link
-
+   https://task-management-assignmnt.netlify.app/
 
 ### Images of the App in both light and dark mode
 
