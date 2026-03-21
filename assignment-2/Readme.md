@@ -10,13 +10,13 @@
 
 NOTE:- whole app image screenshot is taken with 50% pc screen width may not be clear and the responsive in 30%
 
-[App heading](./task-management/src/assets/heading.png)
-[App main](./task-management/src/assets/main.png)
-[App task](./task-management/src/assets/task.png)
-[Whole App Light](./task-management/src/assets/wholeAppLight.png)
-[responsive Light](./task-management/src/assets/responsiveLight.png)
-[Whole app Dark](./task-management/src/assets/wholeAppDark.png)
-[responsive Dark](./task-management/src/assets/responsiveDark.png)
+![App heading](./task-management/src/assets/heading.png)
+![App main](./task-management/src/assets/main.png)
+![App task](./task-management/src/assets/task.png)
+![Whole App Light](./task-management/src/assets/wholeAppLight.png)
+![responsive Light](./task-management/src/assets/responsiveLight.png)
+![Whole app Dark](./task-management/src/assets/wholeAppDark.png)
+![responsive Dark](./task-management/src/assets/responsiveDark.png)
 
 A responsive task management app built with React, Context API, useReducer and have the basic CRUD Functionality.
 
