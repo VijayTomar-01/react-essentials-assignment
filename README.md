@@ -10,3 +10,8 @@ Includes
 - Movie Database App
 
 [View Assignment 1 Details](./assignment-1/Readme.md)
+
+### Assignment 2
+-Task Management App
+
+[View Assignment 2 Details](./assignment-2/Readme.md)
