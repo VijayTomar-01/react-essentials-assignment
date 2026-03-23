@@ -14,12 +14,24 @@ const TaskItem = ({task}) => {
   })
 
   const handleEditing = () => {
+    setEditData({
+      title: task.title,
+      description: task.description,
+      priority: task.priority
+    })
+    setIsEditing(true)
+  }
+
+  const handleSave = () => {
     if(!editData.title.trim()){
-      alert('Enter task title to save task');
-      return
+      alert('Enter task title to save task!')
+      return;
     }
 
-    editTask(task.id, editData)
+    editTask(task.id, {
+      ...editData,
+      title: editData.title.trim()
+    })
     setIsEditing(false)
   }
 
@@ -59,7 +71,7 @@ const TaskItem = ({task}) => {
         <div className='flex space-x-8 mt-6 ml-4'>
           <button
           className='shadow-sm shadow-gray-600 px-3 py-1 rounded-xl text-xs md:text-sm lg:text-md bg-yellow-300 text-gray-700 font-medium transition-all duration-300 hover:scale-105 hover:shadow-md' 
-          onClick={handleEditing}>Save</button>
+          onClick={handleSave}>Save</button>
           <button
           className='shadow-sm shadow-gray-600 px-3 py-1 rounded-xl text-xs md:text-sm lg:text-md bg-yellow-300 text-gray-700 font-medium transition-all duration-300 hover:scale-105 hover:shadow-md' 
           onClick={handleCancel}>Cancel</button>
@@ -92,7 +104,7 @@ const TaskItem = ({task}) => {
         onClick={() => toggleTask(task.id)}
         className={`cursor-pointer transition-all duration-300 hover:scale-105 px-3 py-1 text-xs font-semibold shadow-sm shadow-gray-500 rounded-lg ${task.completed ? 'bg-green-600/90 text-gray-100' : 'bg-yellow-300 text-gray-700'}`}>{task.completed ? '✅ Completed' : '⏳ Pending'}</button>
         <button
-        onClick={() => setIsEditing(true)}
+        onClick={handleEditing}
         className={`px-3 py-1 text-xs transition-all duration-300 hover:scale-105 cursor-pointer  font-semibold shadow-sm shadow-gray-500 rounded-lg bg-gray-200 text-gray-700 hover:bg-indigo-300`}>🖊️ Edit</button>
         <button
         className='px-3 py-1 text-xs transition-all duration-300 hover:scale-105 cursor-pointer  font-medium shadow-sm shadow-gray-500 rounded-lg bg-red-700/40 hover:bg-red-700/80 hover:text-gray-100'
