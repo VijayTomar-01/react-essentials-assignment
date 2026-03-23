@@ -11,7 +11,7 @@ import TaskStats from './TaskStats'
 const TaskPage = () => {
 
   const {darkTheme} = useThemeContext()
-  const {taskStats, clearTasks, tasks} = useTaskContext()
+  const {clearTasks, tasks} = useTaskContext()
 
   return (
     <div>
@@ -33,7 +33,8 @@ const TaskPage = () => {
         <div className={`shadow-md shadow-gray-500 p-6 rounded-lg ${darkTheme ? 'bg-linear-to-br from-slate-900 via-slate-800 to-black border border-gray-200/60' : 'bg-linear-to-br from-sky-50 via-white to-purple-100 border'}`}>
           <FilterControl />
         </div>
-        <TaskStats/> 
+        <TaskStats/>
+         
         <div className='flex items-center justify-end mt-4 mb-4'>
           <button
           disabled={tasks.length === 0}
